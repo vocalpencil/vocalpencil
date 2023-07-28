@@ -75,7 +75,7 @@ const pages = {
   
   <p class="font-weight-light text-secondary">The full text of the AGPLv3 can be found at <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank">AGPLv3 Full Text</a>.</p>
   
-  <h7>Privacy Policy:</h7> <p class="font-weight-light text-secondary">VocalPencil does not store any user data. However, for the purpose of traffic analysis, we use a privacy-focused, open-source analytics tool that does not share your data with any third parties.</p>`
+  <h7>Privacy:</h7> <p class="font-weight-light text-secondary">VocalPencil does not store any user input (i.e., speech, transcription ot writing). We collect visiting data for the purpose of traffic analysis, Instead of relying on cookies like many analytics products, visitors are identified by a hash created from the incoming request. Using a generated hash provides a privacy-friendly experience for visitors and means visitors can't be tracked between different days or different websites.</p>`
   },
   'contact': {
     title: 'Contact',
