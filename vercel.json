@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/writing", "destination": "/writing.html" }
+    ]
+  }
+  
