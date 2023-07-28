@@ -1,18 +1,25 @@
 // Main.js
 
-    document.addEventListener("DOMContentLoaded", function(event) { 
-        // The DOMContentLoaded event fires when the initial HTML document has been completely loaded and parsed
-        // without waiting for stylesheets, images, and subframes to finish loading
-        let navLinks = document.querySelectorAll('.nav-link'); // gets all elements with the class 'nav-link'
+document.addEventListener("DOMContentLoaded", function () {
+  // Get all nav items
+  var navItems = document.querySelectorAll(".nav-item a");
 
-        navLinks.forEach((link) => {
-            let linkUrl = link.getAttribute('href') // gets the href attribute of each link
-            
-            if (window.location.href.includes(linkUrl)) {
-                link.classList.add('active') // adds the class 'active' to the link if its href matches the current URL
-            }
-        });
-    });
+  // Get current path
+  var currentPath = window.location.pathname;
+
+  // Loop through all nav items
+  navItems.forEach(function (navItem) {
+    // Check if nav item href matches current path
+    if (currentPath.includes(navItem.getAttribute('href'))) {
+      // Add active class to parent li element
+      navItem.parentNode.classList.add("active");
+    } else {
+      // Remove active class from parent li element
+      navItem.parentNode.classList.remove("active");
+    }
+  });
+});
+
 
   toastr.options = {
     "closeButton": false,
