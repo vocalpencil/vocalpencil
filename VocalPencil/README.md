@@ -21,37 +21,11 @@ To run this project, you will need:
 ### Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/<your_username>/VocalPencil.git
-    ```
 
 2. Open the `index.html` file in your browser.
 
 Now, you can interact with the application locally.
 
-### Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/<your_username>/VocalPencil.git
-    ```
-
-2. Navigate into the cloned repository directory:
-    ```bash
-    cd VocalPencil
-    ```
-
-3. Install the dependencies:
-    ```bash
-    npm install
-    ```
-
-4. Start the server:
-    ```bash
-    npm start
-    ```
-
-Now, you can navigate to `localhost:3000` in your browser to see the application running.
 
 ## Deployment
 
