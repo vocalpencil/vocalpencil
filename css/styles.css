@@ -2,6 +2,10 @@
     color: black !important;
 }
 
+.nav-link.active {
+    color: gray;
+}
+
 .container {
     max-height: 75vh;
     overflow-y: auto;
