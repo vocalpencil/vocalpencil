@@ -2,6 +2,8 @@
 const recognition = new webkitSpeechRecognition();
 recognition.continuous = true;
 recognition.interimResults = true;
+// Specify the language
+recognition.lang = 'en-US'; 
 
 let transcribedText = '';
 let recognitionStoppedByUser = false;
