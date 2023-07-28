@@ -1,21 +1,16 @@
-// Main.js
-
 document.addEventListener("DOMContentLoaded", function () {
   // Get all nav items
   var navItems = document.querySelectorAll(".nav-item a");
 
-  // Get current path
-  var currentPath = window.location.pathname;
-
   // Loop through all nav items
   navItems.forEach(function (navItem) {
-    // Check if nav item href matches current path
-    if (currentPath.includes(navItem.getAttribute('href'))) {
+    // Check if nav item href matches current page URL
+    if (window.location.href.endsWith(navItem.getAttribute('href'))) {
       // Add active class to parent li element
-      navItem.parentNode.classList.add("active");
+      navItem.classList.add("active");
     } else {
       // Remove active class from parent li element
-      navItem.parentNode.classList.remove("active");
+      navItem.classList.remove("active");
     }
   });
 });
