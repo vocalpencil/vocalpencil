@@ -44,11 +44,36 @@
                     </li>
                 </ul>
 
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link" href="https://www.buymeacoffee.com/flyingbacksheep" target="_blank">give a gift now!</a>
-                    </li>
-                </ul>
+                <!-- Dropdown button -->
+                <div class="dropdown ml-auto">
+                    <button class="btn btn-sm dropdown-toggle gift-button" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Give a Gift
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="https://www.buymeacoffee.com/flyingbacksheep" target="_blank">Buy
+                            me a coffee</a>
+                        <button class="dropdown-item" data-toggle="modal" data-target="#wechatModal">微信赞赏</button>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="wechatModal" tabindex="-1" role="dialog" aria-labelledby="wechatModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="wechatModalLabel">微信赞赏</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body d-flex flex-column align-items-center">
+                                <p class="text-center mb-3">感谢您的支持，祝您考试好运💯, 不考试也好运🔅!</p>
+                                <img src="/img/wechat.png" alt="WeChat Image" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </nav>
