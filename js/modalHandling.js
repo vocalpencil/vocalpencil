@@ -30,6 +30,10 @@ const pages = {
   
       <h7>How do I use VocalPencil for improving my English skills?</h7>
       <p class="font-weight-light text-secondary">On both the Speaking and Writing pages, record your speech or type your text, Click 'Copy Prompt for Feedback' and select the type of English proficiency test (CELPIP, IELTS, or TOEFL), then paste it to your chatbot such as ChatGPT to receive your personalized feedback.</p>
+
+      <h7>Why doesn't the "Start transcribing" (transcription function) work?</h7>
+      <p class="font-weight-light text-secondary">The function uses the Web Speech API, which is not supported by all browsers. Try using Google Chrome or Safari.</p>
+  
   
       <h7>Can I use the prompts for grading my speaking or writing?</h7>
   <p class="font-weight-light text-secondary">VocalPencil uses established English proficiency test rubrics to provide feedback on your spoken or written responses. However, the accuracy of the results may vary and may not always be consistent, even for the same content. Therefore, we recommend using the feedback provided as a tool for practice and improvement rather than as a precise grading system. We strive to guide users towards improvement, not mislead with potentially inaccurate scores.</p>
