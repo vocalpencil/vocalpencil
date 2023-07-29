@@ -3,7 +3,7 @@ const pages = {
     title: 'Feedback Overview',
     content: `
     <h7>What to expect from the feedback?</h7>
-    <p class="font-weight-light text-secondary">Simply copy your prompt and paste it to chatbot like ChatGPT for feedback. You can expect to receive insights about:</p>
+    <p class="font-weight-light text-secondary">Simply copy your prompt and paste it to a chatbot like ChatGPT for feedback. You can expect to receive insights about:</p>
 
     <ul class="font-weight-light text-secondary">
         <li>Your Strengths & Weaknesses: Areas where you are performing well or need improvement.</li>
@@ -19,7 +19,7 @@ const pages = {
     content: `
       <p class="font-weight-light text-secondary">VocalPencil is a platform aimed at aiding preparation for English proficiency tests such as CELPIP, IELTS, and TOEFL.</p>
   
-      <p class="font-weight-light text-secondary">By harnessing the power of AI technology, VocalPencil generate prompts for personalized feedback and suggestions, democratizing access to high-quality test preparation.</p>
+      <p class="font-weight-light text-secondary">By harnessing the power of AI technology, VocalPencil generates prompts for personalized feedback and suggestions, democratizing access to high-quality test preparation.</p>
   
       <p class="font-weight-light text-secondary">Constantly evolving based on user feedback and advancements in language learning technology, VocalPencil is dedicated to empowering your success in language proficiency tests.</p>
       <p class="font-weight-light text-secondary">© Copyright 2023 VocalPencil.<br>Distributed under the terms of the AGPLv3 License</p>`
@@ -41,7 +41,7 @@ const pages = {
   
       <h7>How accurate is the feedback I receive from the chatbot?</h7>
   <p class="font-weight-light text-secondary">
-  The feedback provided by the chatbot are based on the rubrics from the official English proficiency test websites. Please note that the accuracy and quality of the feedback also greatly depends on the chatbot you are using for evaluation. VocalPencil merely provides a platform for you to generate and format your inputs but does not participate in the analysis or evaluation of your content. These results should be used for learning purposes and as a tool for improvement rather than as a definitive prediction of actual exam scores.
+  The feedback provided by the chatbot is based on the rubrics from the official English proficiency test websites. Please note that the accuracy and quality of the feedback also greatly depend on the chatbot you are using for evaluation. VocalPencil merely provides a platform for you to generate and format your inputs but does not participate in the analysis or evaluation of your content. These results should be used for learning purposes and as a tool for improvement rather than as a definitive prediction of actual exam scores.
   </p>
   
       <h7>I'm having trouble copying my text, what should I do?</h7>
@@ -79,13 +79,13 @@ const pages = {
   
   <p class="font-weight-light text-secondary">The full text of the AGPLv3 can be found at <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank">AGPLv3 Full Text</a>.</p>
   
-  <h7>Privacy:</h7> <p class="font-weight-light text-secondary">VocalPencil does not store any user input (i.e., speech, transcription ot writing). We collect visiting data for the purpose of traffic analysis, Instead of relying on cookies like many analytics products, visitors are identified by a hash created from the incoming request. Using a generated hash provides a privacy-friendly experience for visitors and means visitors can't be tracked between different days or different websites.</p>`
+  <h7>Privacy:</h7> <p class="font-weight-light text-secondary">VocalPencil does not store any user input (i.e., speech, transcription or writing). We collect visiting data for the purpose of traffic analysis, Instead of relying on cookies like many analytics products, visitors are identified by a hash created from the incoming request. Using a generated hash provides a privacy-friendly experience for visitors and means visitors can't be tracked between different days or different websites.</p>`
   },
   'contact': {
     title: 'Contact',
     content: `<h7>We'd Love to Hear From You</h7><br><br>
   
-      <p class="font-weight-light text-secondary">Whether you have a question about our service, need assistance, or you have suggestions for improvements, new features, or any other feedback, we are here to listen and respond.</p>
+      <p class="font-weight-light text-secondary">Whether you have a question about our service, need assistance, or have suggestions for improvements, new features, or any other feedback, we are here to listen and respond.</p>
   
       <p class="font-weight-light text-secondary">Please email us at <a href="mailto:vocalpencil&#64;protonmail&#46;com">vocalpencil&#64;protonmail&#46;com</a>. We endeavor to respond to all inquiries as quickly as possible.</p>`
   }
